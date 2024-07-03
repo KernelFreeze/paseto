@@ -77,7 +77,7 @@ Serializes and signs the payload as a PASETO using the provided private key.
 <summary><em><strong>Example</strong></em> (Click to expand)</summary>
 
 ```js
-const { createPrivateKey } = require('crypto')
+const { createPrivateKey } = require('node:crypto')
 const { V4 } = require('paseto')
 
 const key = createPrivateKey(privateKey)
@@ -132,7 +132,7 @@ Verifies the claims and signature of a PASETO
 <summary><em><strong>Example</strong></em> (Click to expand)</summary>
 
 ```js
-const { createPublicKey } = require('crypto')
+const { createPublicKey } = require('node:crypto')
 const { V4 } = require('paseto')
 
 const key = createPrivateKey(publicKey)
@@ -267,7 +267,7 @@ Serializes and signs the payload as a PASETO using the provided private key.
 <summary><em><strong>Example</strong></em> (Click to expand)</summary>
 
 ```js
-const { createPrivateKey } = require('crypto')
+const { createPrivateKey } = require('node:crypto')
 const { V3 } = require('paseto')
 
 const key = createPrivateKey(privateKey)
@@ -322,7 +322,7 @@ Verifies the claims and signature of a PASETO
 <summary><em><strong>Example</strong></em> (Click to expand)</summary>
 
 ```js
-const { createPublicKey } = require('crypto')
+const { createPublicKey } = require('node:crypto')
 const { V3 } = require('paseto')
 
 const key = createPrivateKey(publicKey)
@@ -383,7 +383,7 @@ Serializes and encrypts the payload as a PASETO using the provided secret key.
 <summary><em><strong>Example</strong></em> (Click to expand)</summary>
 
 ```js
-const { createSecretKey } = require('crypto')
+const { createSecretKey } = require('node:crypto')
 const { V3 } = require('paseto')
 
 const key = createSecretKey(secret)
@@ -438,7 +438,7 @@ Decrypts and validates the claims of a PASETO
 <summary><em><strong>Example</strong></em> (Click to expand)</summary>
 
 ```js
-const { createSecretKey } = require('crypto')
+const { createSecretKey } = require('node:crypto')
 const { V3 } = require('paseto')
 
 const key = createSecretKey(secret)
@@ -569,7 +569,7 @@ Serializes and signs the payload as a PASETO using the provided private key.
 <summary><em><strong>Example</strong></em> (Click to expand)</summary>
 
 ```js
-const { createPrivateKey } = require('crypto')
+const { createPrivateKey } = require('node:crypto')
 const { V2 } = require('paseto')
 
 const key = createPrivateKey(privateKey)
@@ -623,7 +623,7 @@ Verifies the claims and signature of a PASETO
 <summary><em><strong>Example</strong></em> (Click to expand)</summary>
 
 ```js
-const { createPublicKey } = require('crypto')
+const { createPublicKey } = require('node:crypto')
 const { V2 } = require('paseto')
 
 const key = createPrivateKey(publicKey)
@@ -753,7 +753,7 @@ Serializes and signs the payload as a PASETO using the provided private key.
 <summary><em><strong>Example</strong></em> (Click to expand)</summary>
 
 ```js
-const { createPrivateKey } = require('crypto')
+const { createPrivateKey } = require('node:crypto')
 const { V1 } = require('paseto')
 
 const key = createPrivateKey(privateKey)
@@ -807,7 +807,7 @@ Verifies the claims and signature of a PASETO
 <summary><em><strong>Example</strong></em> (Click to expand)</summary>
 
 ```js
-const { createPublicKey } = require('crypto')
+const { createPublicKey } = require('node:crypto')
 const { V1 } = require('paseto')
 
 const key = createPrivateKey(publicKey)
@@ -867,7 +867,7 @@ Serializes and encrypts the payload as a PASETO using the provided secret key.
 <summary><em><strong>Example</strong></em> (Click to expand)</summary>
 
 ```js
-const { createSecretKey } = require('crypto')
+const { createSecretKey } = require('node:crypto')
 const { V1 } = require('paseto')
 
 const key = createSecretKey(secret)
@@ -921,7 +921,7 @@ Decrypts and validates the claims of a PASETO
 <summary><em><strong>Example</strong></em> (Click to expand)</summary>
 
 ```js
-const { createSecretKey } = require('crypto')
+const { createSecretKey } = require('node:crypto')
 const { V1 } = require('paseto')
 
 const key = createSecretKey(secret)

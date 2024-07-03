@@ -1,4 +1,4 @@
-const crypto = require('crypto')
+const crypto = require('node:crypto')
 
 const test = require('ava')
 const sinon = require('sinon').createSandbox()

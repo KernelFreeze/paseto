@@ -1,6 +1,6 @@
 const test = require('ava')
-const crypto = require('crypto')
-const { promisify } = require('util')
+const crypto = require('node:crypto')
+const { promisify } = require('node:util')
 const generateKeyPair = promisify(crypto.generateKeyPair)
 
 const { errors, V1, V2, V3, V4 } = require('../lib')

@@ -1,4 +1,4 @@
-const { createPublicKey } = require('crypto')
+const { createPublicKey } = require('node:crypto')
 
 const test = require('ava')
 

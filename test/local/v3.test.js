@@ -1,5 +1,5 @@
 const test = require('ava')
-const crypto = require('crypto')
+const crypto = require('node:crypto')
 
 const {
   V3: { encrypt, decrypt, generateKey },
